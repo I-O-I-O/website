@@ -8,23 +8,55 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>IOIO</title>
-        <meta name="description" content="Temporary website for IOIO.">
+        <meta name="description" content="Website of the Institute Of Interactive Objects, IOIO.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     </head>
-    <style>
-        body{
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: sans-serif;
-        }
-    </style>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <p>Hello, this site is under construction.</p>
-        <script src="" async defer></script>
+        <div class="header">
+
+            <div class="header-container logo">
+                <img src="./assets/ioio-logo-nav.png" alt="Logo">
+
+            </div>
+            <div class="header-container"></div>
+            <div class="header-container nav">
+                <a class="selected" href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="banner">
+                <img src="assets/cutting-mat.jpg" alt="bg">
+            </div>
+            <div class="content-container"> 
+                <div id="article">
+                    <h2>Hello fellow maker!</h2>
+                    <p>Welcome to the institue of interactive objects!</p>
+                    <br>
+                    <p>Read more about us and what we do by clicking <a href="about.html">here</a></p>
+                    <br>
+                </div>
+            </div>
+
+        </div>
+        <div class="foot">
+            <div class="footer-container left">
+                <h4>IOIO</h4>
+                <p>Nordenskiöldsgatan 10</p>
+                <p>211 19 Malmö</p>
+            </div>
+            <div class="footer-container right">
+                <a href="https://www.facebook.com/ioiomau/">
+                    <img src="https://img.icons8.com/material/120/000000/facebook--v1.png"/>
+                </a>
+            </div>
+        </div>
+
+        <script src="script.js" async defer></script>
     </body>
 </html>
